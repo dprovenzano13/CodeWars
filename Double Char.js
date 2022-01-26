@@ -5,3 +5,11 @@ Examples (Input -> Output):
 * "Hello World" -> "HHeelllloo  WWoorrlldd"
 * "1234!_ "     -> "11223344!!__  "
 Good Luck!*/
+
+function double(str) {
+    let doubledString = ''
+for(let i = 0; i < str.length; i++){
+  doubledString += str[i] + str[i]
+}
+return doubledString
+}
