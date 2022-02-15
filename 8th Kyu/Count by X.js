@@ -11,10 +11,10 @@ countBy(2,5) === [2,4,6,8,10] */
 
   function countBy(x, n){
     let z = [];
-    let startingNum = x
+    let start = x
     for(let i = 0; i < n; i++){
       z.push(x)
-      x += startingNum
+      x += start
     }
     return z;
   }
