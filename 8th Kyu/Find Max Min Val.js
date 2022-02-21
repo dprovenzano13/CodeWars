@@ -8,3 +8,12 @@ Examples (Input -> Output)
 * [5]                             -> min = 5, max = 5
 Notes
 You may consider that there will not be any empty arrays/vectors.*/
+
+let max = (arr) => {
+    let max = Math.max(...arr)
+    return max
+}
+let min = (arr) => {
+    let min = Math.min(...arr)
+    return min
+}
