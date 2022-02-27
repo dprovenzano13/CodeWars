@@ -6,7 +6,7 @@ let nums = [1, 2, 2]
 function squareSum(arr){
   let sum = 0
     arr.forEach(e =>{
-    let square = Math.pow(e,2)
+    let square = e ** 2
     return sum += square
     })
   return sum
