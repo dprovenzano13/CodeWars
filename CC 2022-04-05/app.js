@@ -14,12 +14,12 @@
 //R: Return the result of the numbers from the chosen operation
 //E: If I put in ('+', 3, 6), my return should be 9
 //P: Make a function that takes in 3 parameters named operation, value1, value2
-function pickTheMath(operation, value1, value2){
+function quickMaths(operation, value1, value2){
     if(operation == '+') return value1 + value2
     if(operation == '-') return value1 - value2
     if(operation == '*') return value1 * value2
     if(operation == '/') return value1 / value2
 }
 // Should return the result of the numbers from the chosen operation
-pickTheMath('+', 3, 5)
-console.log(pickTheMath('+', 5, 5), 10)
+quickMaths('+', 3, 5)
+console.log(quickMaths('+', 5, 5), 10)
