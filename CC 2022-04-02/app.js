@@ -14,4 +14,4 @@ function doubled(arr){
 doubled([1,3,4]);
 =======
 //[1, 2, 3] --> [2, 4, 6]
->>>>>>> refs/remotes/origin/main
+
