@@ -22,4 +22,4 @@ function quickMaths(operation, value1, value2){
 }
 // Should return the result of the numbers from the chosen operation
 quickMaths('+', 3, 5)
-console.log(quickMaths('+', 5, 5), 10)
+console.log(quickMaths('+', 4, 5), 9)
