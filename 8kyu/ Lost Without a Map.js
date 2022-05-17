@@ -2,7 +2,6 @@
 
 //For example:
 
-<<<<<<< HEAD
 //[1, 2, 3] --> [2, 4, 6]
 
 // Make a function that takes in an array and doubles the elements inside of the array
