@@ -11,5 +11,4 @@ function squareSum(arr){
     })
   return sum
 }
-
 squareSum(nums)
