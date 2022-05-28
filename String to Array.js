@@ -5,6 +5,4 @@ Examples (Input -> Output):
 
 * "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]*/
 
-let stringToArray = (str) => {
-    return str.trim().split(" ")
-}
+let stringToArray = (str) => str.trim().split(" ")
