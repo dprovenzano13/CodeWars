@@ -8,12 +8,12 @@ Examples(Input1, Input2 --> Output):
 "scissors", "rock" --> "Player 2 won!"
 "paper", "paper" --> "Draw!" */
 
-function rockPaperScissors(input1, input2) {
-    if(input1 === 'rock' && input2 === 'scissors' || input1 === 'paper' && input2 === 'rock' || input1 === 'scissors' && input2 === 'paper'){
+const rps = (p1, p2) => {
+    if(p1 === 'rock' && p2 === 'scissors' || p1 === 'paper' && p2 === 'rock' || p1 === 'scissors' && p2 === 'paper'){
         return 'Player 1 won!'
-    } else if (input1 === 'scissors' && input2 === 'rock' || input1 === 'rock' && input2 === 'paper' || input1 === 'paper' && input2 === 'scissors'){
+    } else if (p1 === 'scissors' && p2 === 'rock' || p1 === 'rock' && p2 === 'paper' || p1 === 'paper' && p2 === 'scissors'){
         return 'Player 2 won!'
-    } else if (input1 === input2){
+    } else if (p1 === p2){
         return 'Draw!'
     }
-}
+};
