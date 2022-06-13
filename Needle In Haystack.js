@@ -9,3 +9,10 @@ After your function finds the needle it should return a message (as a string) th
 Example(Input --> Output)
 
 ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" */
+
+function findNeedle(haystack) {
+  let needle = haystack.indexOf('needle')
+  return `found the needle at position ${needle}`
+}
+
+  findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"])
