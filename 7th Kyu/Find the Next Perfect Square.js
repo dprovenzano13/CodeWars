@@ -10,3 +10,14 @@ Examples:(Input --> Output)
 121 --> 144
 625 --> 676
 114 --> -1 since 114 is not a perfect square*/
+
+function findNextSquare(n){
+    let newRoot;
+    let square = Math.sqrt(n)
+    if(square % 1 === 0){
+      newRoot = square + 1    
+    } else {
+      return -1
+    }
+    return newRoot * newRoot
+  }
