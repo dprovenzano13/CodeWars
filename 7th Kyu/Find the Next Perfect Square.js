@@ -11,13 +11,18 @@ Examples:(Input --> Output)
 625 --> 676
 114 --> -1 since 114 is not a perfect square*/
 
-function findNextSquare(n){
-    let newRoot;
-    let square = Math.sqrt(n)
-    if(square % 1 === 0){
-      newRoot = square + 1    
-    } else {
-      return -1
-    }
-    return newRoot * newRoot
+// function findNextSquare(n){
+//     let newRoot;
+//     let square = Math.sqrt(n)
+//     if(square % 1 === 0){
+//       newRoot = square + 1    
+//     } else {
+//       return -1
+//     }
+//     return newRoot * newRoot
+//   }
+
+  function findNextSquare(sq) {
+    var root = Math.sqrt(sq);
+    return root % 1 === 0 ? Math.pow(root + 1, 2) : -1;
   }
