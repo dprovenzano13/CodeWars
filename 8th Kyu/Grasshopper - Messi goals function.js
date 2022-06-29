@@ -11,3 +11,8 @@ Note: the input will always be valid.
 For example:
 
 5, 10, 2  -->  17*/
+
+function add(a,b,c){
+    return a + b + c
+}
+
