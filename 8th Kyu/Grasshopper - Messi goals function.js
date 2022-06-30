@@ -16,3 +16,8 @@ function add(a,b,c){
     return a + b + c
 }
 
+//or
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+    return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+  }
