@@ -17,3 +17,11 @@ the k*k that contain the digit 1 are:
 1, 16, 81, 100, 121, 144, 169, 196, 361, 441.
 So there are 11 digits 1 for the squares of numbers between 0 and 25.
 Note that 121 has twice the digit 1. */
+
+function square(n,d){
+    let k = ''
+      for(let i = 0; i <= n; i++){
+      k += i ** 2
+    }
+    return k.split(d).length-1
+  }
