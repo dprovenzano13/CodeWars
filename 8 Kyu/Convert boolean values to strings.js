@@ -7,3 +7,9 @@ function boolToWord( bool ){
       return 'No'
     }
   }
+
+  //or 
+
+  function boolToWord( bool ){
+    return bool ? 'Yes' : 'No'
+  }
