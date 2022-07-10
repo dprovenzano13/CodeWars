@@ -4,14 +4,12 @@ Examples
 "This is an example!" ==> "sihT si na !elpmaxe"
 "double  spaces"      ==> "elbuod  secaps"*/
 
-let wordz = (str) => {
+let reverseWords = (str) => {
     let splitByWord = str.split(/(\s+)/)
     let newArr = []
     splitByWord.forEach( e => {
-      
       let split = e.split('').reverse().join('')
       newArr.push(split)
-  
     })
         return newArr.join('')
   }
