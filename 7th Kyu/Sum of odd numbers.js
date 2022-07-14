@@ -10,3 +10,17 @@ Calculate the sum of the numbers in the nth row of this triangle (starting at in
 
 1 -->  1
 2 --> 3 + 5 = 8 */
+
+function rowSumOddNumbers(n) {
+	let digit = (n*n) - (n - 1)
+  let answer = 0;
+  let count = 0;
+  while (count < n){
+    if(digit % 2 !== 0){
+      answer += digit
+      count++
+    }
+    digit++
+  }
+  return answer
+}
