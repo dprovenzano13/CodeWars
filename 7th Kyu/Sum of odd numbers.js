@@ -24,3 +24,9 @@ function rowSumOddNumbers(n) {
   }
   return answer
 }
+
+//or
+
+function rowSumOddNumbers(n) {
+   return Math.pow(n, 3);
+ }
