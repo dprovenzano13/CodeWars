@@ -6,3 +6,10 @@
 
 // 1, 1 --> "10" (1 + 1 = 2 in decimal or 10 in binary)
 // 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
+
+function binary(num1, num2) {
+	let sum = num1 + num2
+  return sum.toString(2)
+}
+
+binary(2,6)
