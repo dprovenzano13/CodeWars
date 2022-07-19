@@ -13,3 +13,7 @@ function binary(num1, num2) {
 }
 
 binary(2,6)
+
+//OR
+
+let addBinary = (a,b) => (a+b).toString(2)
