@@ -14,3 +14,13 @@
 
 // s="aaaxbbbbyyhwawiwjjjwwm"
 // printer_error(s) => "8/22"
+
+function printer_error(s){
+	result = 0;
+  for(let i in s){
+    if(s[i] > 'm'){
+      result++
+    }
+  }
+  return result + '/' + s.length
+}
