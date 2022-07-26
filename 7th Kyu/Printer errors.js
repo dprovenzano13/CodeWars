@@ -25,4 +25,4 @@ function printerError(s){
   return result + '/' + s.length
 }
 
-const printerError = s => 
+const printerError = s => `${s.match(/[n-z]/g).length}/${s.length}`
