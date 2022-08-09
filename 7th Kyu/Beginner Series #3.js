@@ -10,3 +10,17 @@
 // (1, 1) --> 1 (1 since both are same)
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
+
+function sumAll(a, b) {
+    sum = 0;
+    if(a < b) {
+        for(let i = a; i < b; i++){
+            console.log(i)
+        }
+    }
+}
+
+function getSum( a,b )
+{
+
+}
