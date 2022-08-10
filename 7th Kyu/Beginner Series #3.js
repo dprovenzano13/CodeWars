@@ -11,16 +11,20 @@
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 
-function sumAll(a, b) {
-    sum = 0;
-    if(a < b) {
-        for(let i = a; i < b; i++){
-            console.log(i)
-        }
-    }
-}
-
 function getSum( a,b )
 {
-
+    sum = 0;
+    if(a < b) {
+      
+        for(let i = a; i <= b; i++){
+            sum += i
+        }
+    } else if (b < a){
+      for(let i = b; i <= a; i++){
+            sum += i
+        }
+    } else {
+      return 0
+    }
+  return sum
 }
