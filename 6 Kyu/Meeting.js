@@ -16,16 +16,16 @@
 // You can see another examples in the "Sample tests".
 
 function meeting(s) {
-	let map = s.toUpperCase().split(';').map(x => new Array(x.split(':')))
-  for(let i = 0; i < map.length; i ++){
-    map[i][0].reverse()
-  }
+    let map = s.toUpperCase().split(';').map(x => new Array(x.split(':')))
+    for(let i = 0; i < map.length; i ++){
+        map[i][0].reverse()
+    }
  	console.log(map.sort())
-  let all = '';
-  for(let j = 0; j < map.length; j++){
-    let last = map[j][0][0]
-  	let first = map [j][0][1]
-  	all += `(${last}, ${first})`
-  }
-  return all
+    let all = '';
+    for(let j = 0; j < map.length; j++){
+        let last = map[j][0][0]
+        let first = map [j][0][1]
+        all += `(${last}, ${first})`
+    }
+    return all
 }
