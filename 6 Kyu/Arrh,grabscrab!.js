@@ -14,3 +14,16 @@
 
 // Good luck!
 
+function grabscrab(anagram, dictionary) {
+	let letters = anagram.split('').sort().join()
+  let words = []
+  console.log(letters)
+  for(let i = 0; i < dictionary.length; i++){
+    let sorted = dictionary[i].split('').sort().join()
+    if(letters === sorted){
+      words.push(dictionary[i])
+    }
+    console.log(sorted)
+  }
+  return words
+  }
