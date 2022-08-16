@@ -4,3 +4,12 @@
 
 // * 'abc' =>  ['ab', 'c_']
 // * 'abcdef' => ['ab', 'cd', 'ef']
+
+function solution(str){
+    arr = [];
+    for(let i = 0; i < str.length; i += 2){
+      second = str[i+1] || '_';
+      arr.push(str[i] + second);
+    }
+    return arr;
+  }
