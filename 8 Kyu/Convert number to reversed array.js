@@ -8,3 +8,9 @@
 function digitize(n) {
 	return String(n).split('').reverse().map(e => Number(e))
 }
+
+// or shortcut... Change it to .map(Number). It does the same thing
+
+function digitize(n) {
+	return String(n).split('').reverse().map(Number)
+}
