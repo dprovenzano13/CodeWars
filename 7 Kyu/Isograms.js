@@ -22,3 +22,9 @@ function isIsogram(str){
     return false
   }
 }
+
+//or
+
+function isIsogram(str){
+    return new Set(str.toUpperCase()).size == str.length;
+  }
