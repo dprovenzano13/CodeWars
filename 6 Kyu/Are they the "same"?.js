@@ -26,3 +26,7 @@
 
 // Note for C
 // The two arrays have the same size (> 0) given as parameter in function comp.
+
+function comp(array1, array2){
+    //your code here
+  }
