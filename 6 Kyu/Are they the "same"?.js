@@ -28,5 +28,10 @@
 // The two arrays have the same size (> 0) given as parameter in function comp.
 
 function comp(array1, array2){
-    //your code here
+    function comp(array1, array2){
+        if(array1 === null || array2 === null) return false
+          array1.sort((a,b) => a -b)
+        array2.sort((a,b) => a -b)
+        return array1.map(e => e * e).every((e, i) => e == array2[i])
+      }
   }
