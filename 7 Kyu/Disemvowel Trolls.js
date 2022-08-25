@@ -7,5 +7,3 @@
 // For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
 // Note: for this kata y isn't considered a vowel.
-
-//Test
