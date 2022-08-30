@@ -23,4 +23,3 @@ function disemvowel(str) {
     .filter(letter => !vowels.includes(letter.toLowerCase()))
     .join('');
 }
-
