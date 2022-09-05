@@ -59,6 +59,7 @@ function getPlanetName(id){
       case 8:
         name = 'Neptune'
           break;
+      default: 'Not a plannet'
     }
     
     return name;
